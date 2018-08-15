@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -7,5 +8,21 @@
 </head>
 <body>
 	<h1>HELLO WORLD!</h1>
+=======
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/header :: common-header" />
+
+<body>
+	<div th:replace="common/navbar :: common-navbar">
+		<div class="container">
+			<div class="starter-template">
+				<h1>MY START PAGE!!</h1>
+				<p class="lead">ASK ME BOLOX</p>
+			</div>
+		
+		</div>
+	
+	<div th:replace="common/header :: before-body-scripts" />
+>>>>>>> i18n
 </body>
 </html>
